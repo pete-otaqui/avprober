@@ -1,0 +1,29 @@
+{
+  "name": "avprober",
+  "version": "0.1.0",
+  "description": "A simplistic rewrite of node-ffprobe, written for avprobe",
+  "main": "index.js",
+  "dependencies": {
+    "es6-promise": "1.*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pete-otaqui/avprober.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pete-otaqui/avprober/issues"
+  },
+  "keywords": [
+    "ffmpeg",
+    "ffprobe",
+    "avprobe"
+  ],
+  "author": {
+    "name": "Pete Otaqui",
+    "url": "http://otaqui.com"
+  },
+  "license": "MIT",
+  "readme": "Simple rewrite of node-ffprobe, that works with avprobe instead.",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/pete-otaqui/avprober"
+}
