@@ -88,8 +88,6 @@ module.exports = (function() {
 
       proc.on('close', function() {
         var blocks = findBlocks(probeData.join(''));
-        console.log('blocks');
-        console.log(blocks.format);
 
         if ( exitCode ) {
           var err_output = errData.join('');
