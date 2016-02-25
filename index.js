@@ -36,6 +36,7 @@ module.exports = (function() {
   }
 
   function parseBlock(block) {
+    if (!block) { return {}; }
     var block_object = {}, lines = block.split('\n');
     lines.forEach(function(line) {
       var data = line.split('=');
